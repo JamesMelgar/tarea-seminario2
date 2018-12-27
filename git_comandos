@@ -1,0 +1,15 @@
+git remote add origin https://github.com/JamesMelgar/tarea-seminario2.git
+git push -u origin master
+
+cd /Escritorio/Vacaciones_2018/P2_vacaciones_2018
+git add .
+git commit -m ""
+git pull origin master
+git push -u origin master
+JamesMelgar
+
+flex y bison
+cd /home/james-pc/Escritorio/Vacaciones_2018/P2_vacaciones_2018
+flex -P yy1 --header-file=scanner.h -o scanner.cpp gralexico.l
+bison -p yy1 -o parser.cpp --defines=parser.h grasintactico.y
+
