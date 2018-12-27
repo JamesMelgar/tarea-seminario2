@@ -5,7 +5,10 @@ cd /Escritorio/Vacaciones_2018/P2_vacaciones_2018
 git add .
 git commit -m ""
 git pull origin master
+sudo chmod -R 775 .git
 git push -u origin master
+git push nueva
+
 JamesMelgar
 
 flex y bison
